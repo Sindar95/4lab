@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+</html>
+<script>
+function get_fib(n) {
+  var A = 1,
+    B = 1;
+    var n=6;
+  for (var i = 3; i <= n; i++) {
+    var C = A + B;
+    A = B;
+    B = C;
+  }
+  return B;
+}
+alert( get_fib(6) ); 
+</script

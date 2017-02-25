@@ -1,0 +1,29 @@
+<html>
+<head>
+</head>
+</html>
+<script>
+var min;
+a=Number(prompt("a",""));
+b=Number(prompt("b",""));
+c=Number(prompt("c",""));
+d=Number(prompt("d",""));
+function get_min (a,b,c,c){
+int min = a ;
+        if(min > b)
+        {
+            min = b;
+        }
+        if(min > c)
+        {
+            min = c;
+        }
+        if(min >  d)
+        {
+            min = d;
+        }
+	
+return min_num;
+}
+alert(get_min(a,b,c,d));
+</script>
